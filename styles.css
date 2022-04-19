@@ -1,0 +1,58 @@
+body {
+   margin: 0;
+   padding: 0;
+   background: rgb(36,72,75);
+}
+
+.button-div {
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   transform: translate(-50%);
+}
+
+.button {
+   text-align: center;
+   font-weight: bold;
+   width: 80px;
+   height: 25px;
+   border-style: solid;
+   border-width: 3px;
+   border-radius: 7px;
+   border-color: black;
+}
+
+.input-div {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.input {
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+   width: 25px;
+   height: 25px;
+   border-style: solid;
+   border-width: 3px;
+   border-radius: 7px;
+   border-color: black;
+}
+
+.die {
+   position: absolute;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   width: 100px;
+   height: 100px;
+}
+
+#die1 {
+   left: 33%;
+}
+
+#die2 {
+   left: 67%;
+}
